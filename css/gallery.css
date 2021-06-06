@@ -3,7 +3,7 @@
    background-color: rgb(50, 51, 54);
    width: 100vw;
    height: auto;
-   min-height: 100vh;
+   min-height: 90vh;
    padding-bottom: 8rem;
 }
 
@@ -12,7 +12,7 @@
    color: white;
    text-align: center;
    margin-bottom: 2rem;
-   padding-top: 3rem;
+   padding-top: 2rem;
 }
 
 .friends{
