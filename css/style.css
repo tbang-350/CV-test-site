@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-image: url(../images/background.jpg);
+    background-position: center;*/
+    background-color: rgb(50, 51, 54);
+    
+    
+}
+
+li,a,button,p,h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo span{
+    color: rgb(12, 184, 214);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.list-items{
+    list-style: none;
+}
+
+.list-items li{
+    display: inline-block;
+    padding: 0 25px;
+
+}
+
+.list-items li a:hover{
+    color: rgb(12, 184, 214);
+}
+
+button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5em;
+    background: rgb(12, 184, 214);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(9, 166, 194);
+}
+
+.current{
+    font-weight: bolder;
+    color: rgb(12, 184, 214);
+}
+.about{
+    padding: 30px 10%;
+    color: rgb(255, 255, 255);
+}
+
+img{
+    border-radius: 50%;
+    width: 357px;
+    height: 357px;
+    z-index: 3;
+
+
+}
+
+
+.about,.details{
+    position: static;
+    
+}
+
+
+
+p.position{
+    position: absolute;
+    top: 35%;
+    right: 500px;
+    margin-right: -70px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+
+    
+}
+
+
+hr{
+    padding: 2px;
+    border:1px solid white;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5em;
+}
+
+h2{
+    padding: 15px;
+}
+
+
